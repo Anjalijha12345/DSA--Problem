@@ -27,5 +27,8 @@ int main() {
      vector<int> nums3 = {5, 4, -1, 7, 8};
      cout << "Example 3: " << maxSubArray(nums3) <<  endl;
 
+    vector<int> nums4 = {6, -1, 0, 1, 2};
+     cout << "Example 4: " << maxSubArray(nums4) <<  endl;
+
     return 0;
 }
