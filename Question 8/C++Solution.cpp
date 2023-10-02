@@ -37,5 +37,9 @@ int main() {
     int target2 = 13;
     cout << "Example 2: Target " << target2 << " found? " << boolalpha << searchMatrix(matrix2, target2) << endl;
 
+    vector<vector<int>> matrix3 = {{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}};
+    int target3 = 10;
+    cout << "Example 3: Target " << target3 << " found? " << boolalpha << searchMatrix(matrix3, target3) << endl;
+
     return 0;
 }
