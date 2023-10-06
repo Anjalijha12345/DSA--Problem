@@ -1,5 +1,3 @@
-/* Following program is a C++ implementation of Rabin Karp
-Algorithm given in the CLRS book */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -64,12 +62,10 @@ void search(char pat[], char txt[], int q)
 		}
 	}
 }
-
-/* Driver code */
 int main()
 {
-	char txt[] = "GEEKS FOR GEEKS";
-	char pat[] = "GEEK";
+	char txt[] = "Ronak gupta";
+	char pat[] = "Ronak";
 
 	// we mod to avoid overflowing of value but we should
 	// take as big q as possible to avoid the collison
@@ -79,5 +75,3 @@ int main()
 	search(pat, txt, q);
 	return 0;
 }
-
-// This is code is contributed by rathbhupendra
