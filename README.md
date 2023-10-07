@@ -1,4 +1,4 @@
-## Welcome to the DSA problem repository
+## Welcome to the DSA Problem Repository
 
 ## Introduction
 
@@ -19,7 +19,7 @@ Hacktoberfest is a month-long celebration of open-source software. It encourages
 
 # DSA-Problem
  
-SR No   | Program | Problem Link  
+Sr No   | Program | Problem Link  
 --- | --- | ---
 1 | Find duplicates in an array | [Link](https://practice.geeksforgeeks.org/problems/find-duplicates-in-an-array/1?page=1&category[]=ArrayssortBy=submissions)
 2 | Chessboard and Queens | [Link](https://cses.fi/problemset/task/1624)
