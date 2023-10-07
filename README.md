@@ -12,9 +12,9 @@ Hacktoberfest is a month-long celebration of open-source software. It encourages
 
 1. Fork this repository.
 2. Clone your forked repository to your local machine.
-3. Create a new branch: git checkout -b my-contribution
-4. Make your changes and commit them: git commit -m "Add your message here"
-5. Push to your branch: git push origin my-contribution
+3. Create a new branch: `git checkout -b my-contribution`
+4. Make your changes and commit them: `git commit -m "Add your message here"`
+5. Push to your branch: `git push origin my-contribution`
 6. Create a Pull Request (PR) from your forked repository to this repository.
 
 # DSA-Problem
