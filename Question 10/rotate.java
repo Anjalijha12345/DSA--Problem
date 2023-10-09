@@ -1,7 +1,11 @@
 class Solution {
     public void rotate(int[][] matrix) {
+        
         int n = matrix.length;
         int j= 0;
+        while(j>n){
+            System.exit(0);
+        }
         while(j<n){
             reverse(matrix, 0, j, n-1, j);
             j++;
@@ -47,5 +51,7 @@ class Solution {
         int temp = matrix[i1][j1];
         matrix[i1][j1] = matrix[i2][j2];
         matrix[i2][j2] = temp;
+        System.out.println("this is the answer:" + temp);
     }
+    
 }
