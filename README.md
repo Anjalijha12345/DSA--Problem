@@ -9,4 +9,5 @@ SR No   | Program | Problem Link
 8 | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix)
 9 |Middle of linked list |  [Link](https://leetcode.com/problems/middle-of-the-linked-list)
 10 |Rotate Matrix |  [Link](https://leetcode.com/problems/rotate-image/)
+11 |Search In Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
 ### Author : [Anjali jha](https://github.com/Anjalijha12345)
