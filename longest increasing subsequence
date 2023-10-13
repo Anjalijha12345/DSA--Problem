@@ -1,0 +1,28 @@
+#include <iostream>
+#include <vector>
+
+int lengthOfLIS(std::vector<int>& nums) {
+    int n = nums.size();
+    if (n == 0) return 0;
+
+    std::vector<int> dp(n, 1); // Initialize an array to store the LIS length
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < i; j++) {
+            if (nums[i] > nums[j]) {
+                dp[i] = std::max(dp[i], dp[j] + 1);
+            }
+        }
+    }
+
+    return *std::max_element(dp.begin(), dp.end()); // Find the maximum value in the dp array
+}
+
+int main() {
+    std::vector<int> nums = {10, 22, 9, 33, 21, 50, 41, 60, 80};
+    int lisLength = lengthOfLIS(nums);
+    
+    std::cout << "Length of Longest Increasing Subsequence: " << lisLength << std::endl;
+
+    return 0;
+}
