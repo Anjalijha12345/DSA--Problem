@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Node {
+    int data;
+    struct Node* next;
+};
+
+struct Node* head = NULL;
+
+void insert(int data) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = data;
+    newNode->next = head;
+    head = newNode;
+}
+
+void display() {
+    struct Node* current = head;
+    while (current != NULL) {
+        printf("%d -> ", current->data);
+        current = current->next;
+    }
+    printf("NULL\n");
+}
+
+void reverse() {
+    struct Node* prev = NULL;
+    struct Node* current = head;
+    struct Node* next = NULL;
+
+    while (current != NULL) {
+        next = current->next; // Save the next node
+        current->next = prev; // Reverse the current node's pointer
+        prev = current;       // Move pointers one step ahead
+        current = next;
+    }
+
+    head = prev; // The new head of the reversed list
+}
+
+int main() {
+    insert(1);
+    insert(2);
+    insert(3);
+    insert(4);
+
+    printf("Original Linked List: ");
+    display();
+
+    reverse();
+
+    printf("Reversed Linked List: ");
+    display();
+
+    return 0;
+}
