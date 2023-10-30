@@ -9,4 +9,5 @@ SR No   | Program | Problem Link
 8 | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix)
 9 |Middle of linked list |  [Link](https://leetcode.com/problems/middle-of-the-linked-list)
 10 |Rotate Matrix |  [Link](https://leetcode.com/problems/rotate-image/)
+11 | Calculating with Functions | [Link](https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39)
 ### Author : [Anjali jha](https://github.com/Anjalijha12345)
